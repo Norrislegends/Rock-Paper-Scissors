@@ -1,4 +1,17 @@
-//1- user chooses a play
-//2- ai gets a random choice
-//3- function gets both plays and decides who wins
-//4- function updates score on the ui and displays who choose what play
+const rockButton = document.getElementById("rock")
+const paperButton = document.getElementById("paper")
+const scissorsButton = document.getElementById("scissors")
+const myMove = document.getElementById("myMove")
+const opponentMove = document.getElementById("opponentMove")
+const result = document.getElementById("result")
+const message = document.getElementById("message")
+
+function humanChoice(){
+  
+
+}
+
+function playRound(humanChoice, computerChoice){
+
+
+}

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -12,24 +13,24 @@
     <h1>Rock Paper Scissors!</h1>
   </header>
   
-  <h2>Choose Your Weapon!</h2>
-  <h3>First to Score 3 Points Wins!</h3>
+  <h2 id="message">Choose Your Move!</h2>
+  <h3 id="result">First to Score 3 Points Wins!</h3>
 
   <div class = main>
     <div class="moves">
-      <button><img class="plays" src="icons/hand.png"></button>
-      <button><img class="plays" src="icons/hand-paper.png"></button>
-      <button><img class="plays" src="icons/scissors.png"></button>
+      <button><img class="plays" id="rock" src="icons/hand.png"></button>
+      <button><img class="plays" id="paper" src="icons/hand-paper.png"></button>
+      <button><img class="plays" id="scissors" src="icons/scissors.png"></button>
     </div>
     
     <div class="info">
       <div class="player">
-        <img class="score" src="icons/person.png">
+        <img class="score" id="myMove" src="icons/person.png">
         <p class="player-score">Your Score: 0</p>
       </div>
 
       <div class="opponent">
-        <img class="score" src="icons/robot.png">
+        <img class="score" id="opponentMove" src="icons/robot.png">
         <p class="opponent-score">Opponent Score: 0</p>
       </div>
 
